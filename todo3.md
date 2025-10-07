@@ -1,0 +1,24 @@
+# Todo List 3
+
+- [ ] **Git & Version Control**
+    - [ ] Initialize Git repository.
+    - [ ] Add remote repository.
+    - [ ] Commit and push initial version.
+- [ ] **Feature: File Upload**
+    - [ ] Add a file uploader widget to the Streamlit app.
+    - [ ] Implement logic to parse the uploaded CSV file.
+    - [ ] Handle potential errors in the uploaded file (e.g., wrong format).
+- [ ] **Feature: Enhanced Evaluation**
+    - [ ] Calculate and display Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE).
+    - [ ] Add a tab or section to show a residual plot.
+- [ ] **Feature: Polynomial Regression**
+    - [ ] Add a UI element to select the degree of the polynomial.
+    - [ ] Implement the logic for polynomial feature transformation.
+    - [ ] Train and display the polynomial regression model.
+- [ ] **Code Quality**
+    - [ ] Set up a testing framework (e.g., `pytest`).
+    - [ ] Write unit tests for `generate_data` and `train_model`.
+    - [ ] Refactor `app.py` to separate concerns more clearly.
+- [ ] **Deployment**
+    - [ ] Create a `Dockerfile`.
+    - [ ] Add instructions on how to build and run the Docker container to `README.md`.
